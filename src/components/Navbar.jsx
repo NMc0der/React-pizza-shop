@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar text-red-500">
       <div className="leftSide">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
