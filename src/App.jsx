@@ -8,7 +8,7 @@ import { Navbar } from "./components/Navbar";
 function App() {
   return (
     <>
-      <h1 className="text-xl font-bold text-red-500">hi</h1>
+      {/* <h1 className="text-xl font-bold text-red-500">hi</h1> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
