@@ -1,7 +1,10 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 
 export function Navbar() {
+  const [openLinks, setOpenLinks] = useState(false);
+
   return (
     <div className=" navbar text-lg bg-red-500 text-yellow-500 h-20  flex items-center p-2">
       <div className="leftSide mr-auto w-1/2 flex justify-start sm:justify-around">
