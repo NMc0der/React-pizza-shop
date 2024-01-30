@@ -20,7 +20,7 @@ export function Navbar() {
         <Link className="sm:block hidden" to="/contact">
           Contact
         </Link>
-        <button className="menu-btn ">
+        <button className="menu-btn sm:hidden block">
           <ReorderIcon />
         </button>
       </div>
