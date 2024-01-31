@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+// import { HeroPizza } from "../assets/nypd-cheese-pizza.jpg";
 
 export function Home() {
   return (
