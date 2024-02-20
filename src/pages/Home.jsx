@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-// import { HeroPizza } from "../assets/nypd-cheese-pizza.jpg";
+import HeroPizza from "../assets/nypd-cheese-pizza.jpg";
 
 export function Home() {
   return (
-    <div className="home maxSmall:justify-center maxSmall:items-center  bg-[url('https://aznypdpizza.com/wp-content/uploads/2023/05/nypd-cheese-pizza.jpg')]  w-full h-[90vh] flex justify-center items-start flex-col bg-center bg-no-repeat bg-cover">
+    <div className="home maxSmall:justify-center maxSmall:items-center  bg-img1 w-full h-[90vh] flex justify-center items-start flex-col bg-center bg-no-repeat bg-cover">
       <div className="headerContainer  w-auto ">
         <h1 className="justify-center items-center text-[90px] font-[50] text-black">
           Noah's Pizzeria
@@ -21,4 +21,5 @@ export function Home() {
   );
 }
 
-//
+// 'https://aznypdpizza.com/wp-content/uploads/2023/05/nypd-cheese-pizza.jpg'
+// style={{ backgroundImage: `url(${HeroPizza})` }}

@@ -6,6 +6,12 @@ export default {
       screens: {
         maxSmall: { max: "640px" },
       },
+      backgroundImage: {
+        img1: "url('./assets/nypd-cheese-pizza.jpg')",
+      },
+      fontFamily: {
+        cursive: ["cursive"],
+      },
     },
   },
   plugins: [],
